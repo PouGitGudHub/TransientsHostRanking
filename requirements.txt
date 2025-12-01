@@ -1,0 +1,22 @@
+# Datenverarbeitung & Mathematik
+numpy
+pandas
+scipy
+
+# Machine Learning
+scikit-learn
+joblib
+
+# Astronomie
+astropy
+noaodatalab
+
+# Visualisierung
+matplotlib
+seaborn
+
+# Utilities
+tqdm
+jupyter
+
+# (Standard-Bibliotheken wie 'os', 'sys', 'getpass', 're' müssen hier nicht gelistet werden)
