@@ -1,0 +1,8 @@
+# .gitignore
+venv/
+.idea/
+__pycache__/
+*.pyc
+
+# Daten und Modelle ignorieren (zu groß für GitHub)
+Data/
