@@ -49,9 +49,29 @@ Clone the repository:
 ```bash
 git clone https://github.com/PouGitGudHub/TransientsHostRanking.git
 cd TransientsHostRanking
+```
+---
+Create a virtual environment (recommended):
+
+```bash
+python3 -m venv venv
+source venv/bin/activate    # Linux/macOS
+venv\Scripts\activate       # Windows
+```
+---
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
 ---
+##🔐 Data Lab Authentication
 
-Install dependencies:
+The project uses NOIRLab’s Data Lab API.
 
+You can set your credentials in main.py or export them as environment variables:
+```bash
+export DATALAB_USER="your_username"
+export DATALAB_PASS="your_password"
 
+```
