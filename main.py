@@ -11,8 +11,8 @@ from getpass import getpass
 from dl import queryClient as qc
 from astropy.coordinates import SkyCoord
 
-USERNAME = "pousadel"
-PASSWORD = "Dl9781408835005!"
+USERNAME = "your_username"
+PASSWORD = "your_password"
 
 
 # =============================================================
