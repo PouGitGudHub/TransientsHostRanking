@@ -19,4 +19,39 @@ This pipeline is used in the context of a cosmology project involving
 ---
 
 ## 🧱 Repository Structure
+TransientsHostRanking/
+│
+├── data/
+│ ├── input/ # Input data (SN lists, DR4 host candidates)
+│ ├── output/ # Model predictions and ranked hosts
+│ ├── training_data/ # Training CSV files (candidates + ground truth)
+│ ├── save/ # Simulation results or helper tables
+│
+├── models/
+│ ├── hgb_model.pkl # Trained HistGradientBoostingClassifier
+│ ├── feature_list.pkl # Matching feature list for inference
+│
+├── src/
+│ ├── main.py # LS DR10 query, DLR, CF-test, host candidate creation
+│ ├── train_model.py # Training of the ML model
+│ ├── apply_model.py # Apply ML to DR4 candidates & create rankings
+│
+├── README.md # Project documentation
+└── requirements.txt # Dependencies
+
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/PouGitGudHub/TransientsHostRanking.git
+cd TransientsHostRanking
+
+---
+
+Install dependencies:
+
 
