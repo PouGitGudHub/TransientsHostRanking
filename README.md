@@ -20,7 +20,9 @@ This pipeline is used in the context of a cosmology project involving
 
 ## 🧱 Repository Structure
 TransientsHostRanking/
+
 │
+
 ├── data/
 │ ├── input/ # Input data (SN lists, DR4 host candidates)
 │ ├── output/ # Model predictions and ranked hosts
