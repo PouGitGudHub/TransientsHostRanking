@@ -75,3 +75,27 @@ export DATALAB_USER="your_username"
 export DATALAB_PASS="your_password"
 
 ```
+---
+##🛰 1. Query Legacy Survey DR10 + Compute DLR (main.py)
+
+This script:
+
+- loads supernova coordinates
+
+- queries LS DR10 using Data Lab
+
+- extracts fluxes, morphology, and photometric redshift
+
+- computes DLR following LS/DESI conventions
+
+- performs the CF-Test to find the 98% efficiency DLR cut
+
+outputs all host candidates to:
+
+```bash
+/data/input/CF_limit_hosts_combined_dr4.csv
+```
+
+Run:
+```bash
+
